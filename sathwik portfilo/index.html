@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Android Developer Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<script src="https://kit.fontawesome.com/b2be372318.js" crossorigin="anonymous"></script>
+<body>
+    <section id="hero">
+        <div class="hero-container">
+            <div class="logo">
+                <img src="images/download.jpg" alt="Logo Design" class="logo-image">
+            </div>
+            <div class="hero-text">
+                <h1>Hello, I'm <span>G Sathwik</span></h1>
+                <p class="role">Android Developer</p>
+
+    </section>
+
+    <section id="about-me">
+        <div class="about-me-container">
+            <div class="about-me-text">
+                <h2>About Me</h2>
+                <p>
+                    I am a passionate Android Developer with a strong foundation in mobile app development. I thrive on creating user-friendly applications with innovative features. My journey has been fueled by curiosity and the desire to build solutions that make a difference.
+                </p>
+                <p>
+                    With experience in Kotlin, Dart, and Firebase, I enjoy tackling challenges and continuously expanding my skillset. When I’m not coding, you can find me exploring new tech trends or diving into a good book.
+                </p>
+                <a href="#contact" class="about-me-button">Get in Touch</a>
+            </div>
+            <div class="about-me-photo">
+                <img src="images/sathwik image.jpg" alt="Your Profile Picture">
+            </div>
+        </div>
+    </section>
+    
+
+    <section id="skills">
+        <h2>Skills</h2>
+        <div class="skills-container">
+            <div class="skill-card">
+                <i class="fa-brands fa-android"></i>
+                <h3>Android Development</h3>
+                <p>Proficient in building Android apps using Dart.</p>
+            </div>
+            <div class="skill-card">
+                <i class="fa-solid fa-code"></i>
+                <h3>Programming Languages</h3>
+                <p>Experience with Kotlin, Dart, and Python.</p>
+            </div>
+            <div class="skill-card">
+                <i class="fa-solid fa-database"></i>
+                <h3>Database Management</h3>
+                <p>Skilled in SQLite, Firebase, and MySQL for app data storage.</p>
+            </div>
+            <div class="skill-card">
+                <i class="fa-solid fa-cloud"></i>
+                <h3>Cloud Integration</h3>
+                <p>Knowledge of Firebase and RESTful APIs for app backend.</p>
+            </div>
+        </div>
+    </section>
+    
+
+        <section id="projects">
+            <h2>Projects</h2>
+            <div class="projects-grid">
+                <div class="project-card">
+                    <h3>Task Manager App</h3>
+                    <p>A simple task management application to organize daily tasks with reminders and notifications.</p>
+                    <p><strong>Technologies:</strong> Kotlin, Jetpack Compose, Firebase</p>
+                    <a href="#" class="project-link">View Project</a>
+                </div>
+                <div class="project-card">
+                    <h3>E-Commerce App</h3>
+                    <p>An e-commerce app featuring product listings, cart management, and secure payments.</p>
+                    <p><strong>Technologies:</strong> Java, SQLite, Stripe API</p>
+                    <a href="#" class="project-link">View Project</a>
+                </div>
+                <div class="project-card">
+                    <h3>Weather Forecast App</h3>
+                    <p>A weather app providing real-time weather updates and a 7-day forecast.</p>
+                    <p><strong>Technologies:</strong> Kotlin, Retrofit, OpenWeather API</p>
+                    <a href="#" class="project-link">View Project</a>
+                </div>
+            </div>
+        </section>
+        
+    <section id="experience">
+        <h2>Experience</h2>
+        <div class="experience-item">
+            <h3>Android Development Intern</h3>
+            <p><strong>Kartavya ​Technology</strong> | october 2024</p>
+            <ul>
+                <li>Assisted in developing and testing a task management app using Kotlin and Jetpack Compose.</li>
+                <li>Worked on integrating APIs for real-time data fetching and syncing.</li>
+                <li>Participated in code reviews and contributed to optimizing app performance.</li>
+            </ul>
+        </div>
+    </section>
+    
+
+    <section id="contact-me">
+        <div class="contact-container">
+            <div class="contact-text">
+                <h2>Contact Me</h2>
+                <p>
+                    Have a question or want to work together? Feel free to reach out to me using the form below or through my social media channels.
+                </p>
+            </div>
+            <div class="contact-form">
+                <form name="submit-to-google-sheet">
+                    <div class="form-group">
+                        <input type="text" name="name" placeholder="Your Name" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="email" name="email" placeholder="Your Email" required>
+                    </div>
+                    <div class="form-group">
+                        <textarea name="message" placeholder="Your Message"  required></textarea>
+                    </div>
+                    <button type="submit" class="contact-button">Send Message</button>
+                </form>
+            </div>
+        </div>
+    </section>
+</div>
+<div class="social-links">
+    <p>Connect with me:</p>
+    <a href="https://www.linkedin.com/in/sathwik-guduguntla-4b1619265/" target="_blank" aria-label="LinkedIn">
+        <i class="fa-brands fa-linkedin"></i>
+    </a>
+    <a href="https://github.com/SathwikGuduguntla" target="_blank" aria-label="GitHub">
+        <i class="fa-brands fa-github"></i>
+    </a>
+    <a href="https://x.com/SATHWIKGUDUGUN4?t=WjXA9JArKVOspQJUobYypg&s=09" target="_blank" aria-label="X">
+        <i class="fa-brands fa-twitter"></i>
+    </a>
+</div>
+</div>
+</section>
+
+    <footer>
+        <p>© 2024 Sathwik. All Rights Reserved.</p>
+    </footer>
+    <script>
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbxWtmPRzP5-UQ192m3i_mSnQnYXrTvzXWrfrhzv0f4lnkdEQH_3T7eHrLKaPsWcKyiG2w/exec'
+        const form = document.forms['submit-to-google-sheet']
+      
+        form.addEventListener('submit', e => {
+          e.preventDefault()
+          fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+            .then(response => console.log('Success!', response))
+            .catch(error => console.error('Error!', error.message))
+        })
+      </script>>
+</body>
+
+</html>
